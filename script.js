@@ -86,6 +86,7 @@ function searchHistory_Push(query) {
 
 
 
-  searchHistory();
+ // searchHistory();
 // searchForm.addEventListener('submit', handleSearchFormSubmit);
 //searchHistoryContainer.addEventListener('click', handleSearchHistoryClick);
+
