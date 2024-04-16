@@ -31,7 +31,6 @@ function getWeather(location) {
 }
 function getCoordinates(query) {
     let Url = `${apiUrl}/geo/1.0/direct?q=${query}&limit=5&appid=${apikey}`;
-    // alert(Url);
 
     fetch(Url)
         .then(function (res) {
@@ -199,7 +198,6 @@ function displayFiveDayForecast(forecastData) {
     const startTimestamp = dayjs().add(1, 'day').startOf('day').unix();
     const endTimestamp = dayjs().add(6, 'day').startOf('day').unix();
 
-    // Create the heading for the forecast section
     const headingColumn = document.createElement('div');
     const forecastHeading = document.createElement('h4');
 
@@ -207,18 +205,15 @@ function displayFiveDayForecast(forecastData) {
     forecastHeading.textContent = 'Upcoming 5-Day Forecast:';
     headingColumn.appendChild(forecastHeading);
 
-    // Clear existing content and append the forecast heading
     forecastContainer.innerHTML = '';
     forecastContainer.appendChild(headingColumn);
 
-    // Iterate over forecast data
     forecastData.forEach(entry => {
         console.log(entry.dt);
         let timestamp = entry.dt;
         let isWithinTimeRange = true//(timestamp >= startTimestamp && timestamp < endTimestamp);
         let isNoonTime = entry.dt_txt.slice(11, 13) === "12";
 
-        // Render forecast card for noon time entries within the desired date range
         if (isWithinTimeRange && isNoonTime) {
             console.log(entry);
             displayForecastCard(entry);
