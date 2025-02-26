@@ -27,7 +27,7 @@ h1 {
 }
 
 .my-btn {
-    background-color: #007bff;
+    background-color: #57076d;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -36,7 +36,7 @@ h1 {
 }
 
 .my-btn:hover {
-    background-color: #0056b3;
+    background-color: #4b80b7;
 }
 
 .my-hr {
@@ -57,9 +57,6 @@ h1 {
 }
 
 
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-/* Document
-   ========================================================================== */
    html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
@@ -337,7 +334,6 @@ h1 {
     text-decoration: underline;
   }
   
-  /* HEIGHT / WIDTH UTILS */
   .w-100 {
     width: 100%;
   }
@@ -362,8 +358,6 @@ h1 {
     min-width: 100vw;
   }
   
-  /* MARGIN/PADDING UTILS */
-  /* Margin - all sides */
   .m-0 {
     margin: 0;
   }
@@ -392,7 +386,6 @@ h1 {
     margin: auto;
   }
   
-  /* Margin-bottom */
   .mb-0 {
     margin-bottom: 0;
   }
@@ -421,7 +414,6 @@ h1 {
     margin-bottom: auto;
   }
   
-  /* Margin-top */
   .mt-0 {
     margin-top: 0;
   }
@@ -450,7 +442,6 @@ h1 {
     margin-top: auto;
   }
   
-  /* Margin-right */
   .mr-0 {
     margin-right: 0;
   }
@@ -479,7 +470,6 @@ h1 {
     margin-right: auto;
   }
   
-  /* Margin-left */
   .ml-0 {
     margin-left: 0;
   }
@@ -508,7 +498,6 @@ h1 {
     margin-left: auto;
   }
   
-  /* Margin - x axis */
   .mx-0 {
     margin-right: 0;
     margin-left: 0;
@@ -544,7 +533,6 @@ h1 {
     margin-left: auto;
   }
   
-  /* Margin - y axis */
   .my-0 {
     margin-top: 0;
     margin-bottom: 0;
@@ -604,7 +592,6 @@ h1 {
     padding: 1.625rem;
   }
   
-  /* padding-bottom */
   .pb-0 {
     padding-bottom: 0;
   }
@@ -653,7 +640,6 @@ h1 {
     padding-top: 1.625rem;
   }
   
-  /* padding-right */
   .pr-0 {
     padding-right: 0;
   }
@@ -732,7 +718,6 @@ h1 {
     padding-left: 1.625rem;
   }
   
-  /* Padding - y axis */
   .py-0 {
     padding-top: 0;
     padding-bottom: 0;
@@ -820,7 +805,7 @@ h1 {
   }
   
   .bg-primary {
-    background-color: #2d3e50 !important;
+    background-color: #2916d070 !important;
   }
   
   .bg-info {
@@ -851,7 +836,6 @@ h1 {
     background-color: #1b89bc !important;
   }
   
-  /* DISPLAY */
   .display-none {
     display: none !important;
   }
@@ -1010,7 +994,7 @@ h1 {
   
   .card .card-header {
     padding: 0.375rem;
-    background-color: #2d5030;
+    background-color: #465198;
     color: #d9e9e8;
   }
   
@@ -1345,7 +1329,6 @@ h1 {
     }
   }
   
-  /* col-md */
   @media screen and (min-width: 768px) {
     .col-md-auto {
       flex-grow: 1;
@@ -1440,7 +1423,6 @@ h1 {
     }
   }
   
-  /* col-lg */
   @media screen and (min-width: 992px) {
     .col-md-auto {
       flex-grow: 1;
@@ -1682,9 +1664,10 @@ h1 {
   }
   
   .weather-header {
-    background: #20084a;
-    background: -webkit-linear-gradient(right, #20084a, #3463bc);
-    background: -moz-linear-gradient(right, #20084a, #3463bc);
-    background: linear-gradient(to left, #20084a, #3463bc);
+    background: #5a42846e;
+    background: -webkit-linear-gradient(right,#20084a, #7f34bc);
+    background: -moz-linear-gradient(right, #20084a, #7f34bc);
+    background: linear-gradient(to left, #20084a, #7f34bc);
+  color: white
   }
   
